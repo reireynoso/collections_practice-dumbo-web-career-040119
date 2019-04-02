@@ -15,11 +15,9 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  old_array = array
-  updated_array = array
-  binding.pry
-  updated_array[1] = old_array[2]
-  updated_array[2] = old_array[1]
+  sorted_array = array.sort do |1,2|
+    inde
+  end
   #binding.pry
   return updated_array
 end
