@@ -13,8 +13,8 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  new_array = array
-  new array[1] = array[2]
-  new_array[2] = array[1]
-  return new_array
+  updated_array = array
+  updated[1] = array[2]
+  updated[2] = array[1]
+  return updated
 end
