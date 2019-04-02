@@ -17,8 +17,9 @@ end
 def swap_elements(array)
   old_array = array
   updated_array = array
+  binding.pry
   updated_array[1] = old_array[2]
   updated_array[2] = old_array[1]
-  binding.pry
+  #binding.pry
   return updated_array
 end
