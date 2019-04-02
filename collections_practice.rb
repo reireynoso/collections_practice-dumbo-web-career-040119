@@ -1,3 +1,5 @@
+require 'pry'
+
 def sort_array_asc(array_of_int) 
   new_array = array_of_int.reverse
 end
@@ -17,5 +19,6 @@ def swap_elements(array)
   updated_array = array
   updated_array[1] = old_array[2]
   updated_array[2] = old_array[1]
+  binding.pry
   return updated_array
 end
