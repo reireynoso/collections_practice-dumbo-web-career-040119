@@ -14,7 +14,7 @@ end
 
 def swap_elements(array)
   updated_array = array
-  updated[1] = array[2]
-  updated[2] = array[1]
-  return updated
+  updated_array[1] = array[2]
+  updated_array[2] = array[1]
+  return updated_array
 end
