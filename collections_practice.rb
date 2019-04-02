@@ -26,6 +26,5 @@ end
 def kesha_maker(array)
   array.each do |stuff|
     name = stuff.split("")
-    puts name
   end
 end
