@@ -25,6 +25,6 @@ end
 
 def kesha_maker(array)
   new_array = array.each_index do |name,index|
-    puts name.split
+    puts name.split()
   end
 end
